@@ -1,0 +1,3 @@
+This device presents a NMEA stream via WIFI, so you can link something like a [CAMINO-701 CLASS A AIS Transponder](https://www.svb24.com/en/amec-camino-701-class-a-ais-transponder.html) to your chartplotter like [Navionics](https://play.google.com/store/apps/details?id=it.navionics.singleAppMarineLakesHD&hl=en) without using the AMEC Junction box or any other hardware.
+
+The ESP32 uses a RS232 module to connect to NMEA. It simulates being a known gateway (in this case just by setting the SSID to `WSK-1-Actisense` and using UDP port `60003`) just to simplify the process, since commercial chartplotters will likely detect it automatically.
