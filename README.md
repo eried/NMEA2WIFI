@@ -8,6 +8,13 @@ The ESP32 uses a RS232 module to connect to NMEA. It simulates being a known gat
 
 <img src="https://github.com/user-attachments/assets/32c86b61-fee4-4207-b253-3d4940cbf0cc" height="400">
 
+
+> [!TIP]
+> The slot on the case was filled with hot melt glue to show the light of the device
+> 
+> <img src="https://github.com/user-attachments/assets/e3d88415-f53b-4a2f-b3f2-0168ddf7e4ca" height="200">
+
+
 ## Details
 
 The current implementation assumes a DB37 connector (for the AMEC AIS), but it can be adapted to any NMEA output. 
